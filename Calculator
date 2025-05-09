@@ -3,3 +3,16 @@ string name = Console.ReadLine();
 Console.write("Enter Your Roll Number ");
 string Roll_No = Console.ReadLine();
 Console.Write($"The Name {name}\n The Roll no {Roll_No}");
+-----------------------------------------------------------
+Divsion Functionality
+double number1, number2, result;
+Console.Write("Enter the first number: ");
+number1 = Convert.ToDouble(Console.ReadLine());
+Console.Write("Enter the second number: ");
+number2 = Convert.ToDouble(Console.ReadLine());
+result= number1\number;
+Console.Write("THE Result of the Divison is "+result);
+
+      
+      
+
