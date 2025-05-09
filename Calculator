@@ -24,14 +24,14 @@ Console.WriteLine("The product of {0} and {1} is {2}", number1, number2, product
 ------------------------------------------------
 Subtraction Functionality 
 int number1, number2, result;
-=======
-Addition Functionality
-int number1, number2, sum;
 Console.Write("Enter the first number: ");
 number1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Enter the second number: ");
 number2 = Convert.ToInt32(Console.ReadLine());
 result = number1 - number2;
+---------------------------------------
+Addition Functionality
+int number1,int numbew2,int sum;
 Console.WriteLine("The result of {0} - {1} is {2}", number1, number2, result);
 sum = number1 + number2;
 Console.WriteLine("The sum of {0} and {1} is {2}", number1, number2, sum);
