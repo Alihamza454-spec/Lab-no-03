@@ -1,0 +1,5 @@
+Console.write("Enter Your Name ");
+string name = Console.ReadLine();
+Console.write("Enter Your Roll Number ");
+string Roll_No = Console.ReadLine();
+Console.Write($"The Name {name}\n The Roll no {Roll_No}");
