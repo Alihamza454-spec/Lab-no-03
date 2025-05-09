@@ -12,7 +12,12 @@ Console.Write("Enter the second number: ");
 number2 = Convert.ToDouble(Console.ReadLine());
 result= number1\number;
 Console.Write("THE Result of the Divison is "+result);
-
-      
-      
-
+------------------------------------------------------------
+Multifaction Functinality
+int number1, number2, product;
+Console.Write("Enter the first number: ");
+number1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter the second number: ");
+number2 = Convert.ToInt32(Console.ReadLine());       
+product = number1 * number2; 
+Console.WriteLine("The product of {0} and {1} is {2}", number1, number2, product);
